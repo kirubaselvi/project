@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -18,7 +19,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-vue-next": "^0.485.0",
-    "nuxt": "^3.13.0",
+    "nuxt": "^3.16.1",
     "nuxt-og-image": "^5.1.1",
     "nuxt-schema-org": "^5.0.4",
     "radix-vue": "^1.5.3",
@@ -37,5 +38,9 @@
     "typescript": "^5.4.2",
     "vue-tsc": "2.2.8"
   },
-  "packageManager": "pnpm@6.3.2"
+  "packageManager": "pnpm@8.15.4",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
 }
