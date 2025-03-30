@@ -4,15 +4,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
   nitro: {
-    preset: 'netlify',
-    prerender: false,
-    output: {
-      dir: 'dist',
-      serverDir: '.output/server'
-    }
+    preset: 'netlify'
   },
   app: {
-    baseURL: '/',
     head: {
       title: 'Money Forward India',
       meta: [
