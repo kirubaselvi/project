@@ -18,19 +18,24 @@
     "@vueuse/nuxt": "^10.9.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "lucide-vue-next": "^0.485.0",
     "nuxt": "^3.13.0",
     "nuxt-og-image": "^5.1.1",
     "nuxt-schema-org": "^5.0.4",
     "radix-vue": "^1.5.3",
+    "reka-ui": "^2.1.1",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@nuxt/fonts": "^0.11.0",
+    "@nuxtjs/mdc": "0.16.1",
     "@nuxtjs/seo": "^3.0.1",
+    "@tanstack/vue-table": "8.21.2",
     "@types/node": "^20.11.28",
     "shadcn-nuxt": "^1.0.3",
     "shadcn-vue": "^1.0.3",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.2",
+    "vue-tsc": "2.2.8"
   }
 }
