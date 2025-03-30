@@ -36,5 +36,6 @@
     "shadcn-vue": "^1.0.3",
     "typescript": "^5.4.2",
     "vue-tsc": "2.2.8"
-  }
+  },
+  "packageManager": "pnpm@6.3.2"
 }
