@@ -5,7 +5,7 @@
   "scripts": {
     "generate": "nuxt generate",
     "build": "nuxt build",
-    "dev": "HOST=0.0.0.0 nuxt dev",
+    "dev": "nuxt dev",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -39,7 +39,7 @@
     "vue-tsc": "2.2.8"
   },
   "engines": {
-    "node": ">=16.0.0",
+    "node": ">=18.0.0",
     "pnpm": ">=8.0.0"
   }
 }
